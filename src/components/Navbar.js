@@ -1,55 +1,78 @@
-import React from 'react';
+import React, { useState } from "react";
 import {
-  Collapse,
-  Navbar as ReactstrapNavbar,
-  NavbarToggler,
+  Navbar,
   NavbarBrand,
+  Collapse,
+  NavbarToggler,
   Nav,
   NavItem,
-  NavLink,
-} from 'reactstrap';
-import { Link } from 'react-router-dom';
-import '../App.css';
+} from "reactstrap";
+import { NavLink } from "react-router-dom";
+import {
+  FcAbout,
+  FcAssistant,
+  FcBinoculars,
+  FcBusinessman,
+  FcHome,
+} from "react-icons/fc";
+import CitrusPic from "../images/CitrusPic.webp";
 
-class Navbar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isOpen: false,
-    };
-  }
+const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  toggle = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  };
+  return (
+    <>
+      <Navbar dark color="primary" sticky="top" expand="md">
+        <div className="navbar-content">
+          
+            <NavbarBrand className="ms-5 navbar-left" href="/">
+              <img
+                src={CitrusPic}
+                alt="Colorful fruits slices"
+                className="header-pic"
+              />
+            </NavbarBrand>
+          
+          <div className="navbar-middle">
+            <h1 className="mt-1">Healthy and Vibrant</h1>
+            <p>Providing wellness through nutrition and lifestyle</p>
+          </div>
+          
+            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+            <Collapse isOpen={menuOpen} navbar>
+              <Nav className="ms-auto navbar-right" navbar>
+                <NavItem>
+                  <NavLink className="nav-link" to="/" href="/">
+                    <FcHome /> Home
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/about" href="/about">
+                    <FcAbout /> About
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/schedule" href="/projects">
+                    <FcBinoculars /> Schedule
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/order-here" href="/resume">
+                    <FcBusinessman /> Order
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/blog" href="/skills">
+                    <FcAssistant /> Blog
+                  </NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </div>
+        
+      </Navbar>
+    </>
+  );
+};
 
-  render() {
-    return (
-      <ReactstrapNavbar color="light" light expand="md" className="mb-4">
-        <NavbarBrand tag={Link} to="/">Healthy and Vibrant</NavbarBrand>
-        <NavbarToggler onClick={this.toggle} />
-        <Collapse isOpen={this.state.isOpen} navbar>
-          <Nav className="ms-auto" navbar>
-            <NavItem>
-              <NavLink tag={Link} to="/">Home</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} to="/about">About</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} to="/contact">Contact</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} to="/order-here">Order Here</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} to="/blog">Blog</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </ReactstrapNavbar>
-    );
-  }
-}
-
-export default Navbar;
+export default Header;

@@ -2,37 +2,159 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #f7ca01;
+  color: black;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-left {
+  display: flex;
+  align-items: center;
+  width: 24%;
+}
+
+.navbar-middle {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-middle h1 {
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar-right {
+  width: 24%;
+}
+
+.header-pic {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-brand,
+.nav-link {
+  color: black;
+  text-decoration: none;
+  
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+  list-style-type: none;
+}
+
+/* Responsive styles */
+@media (max-width: 767.98px) {
+  
+
+  .navbar-left .navbar-right {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+
+  .navbar-brand {
+    padding: 0.5rem 0;
+  }
+
+}
+
+
+
+
+
+
+
+/* src/components/Footer/Footer.css */
+.footer .row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: .5rem 0;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.footer-links,
+.footer-contact {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+
+
+.footer address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.credit {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: #aaa;
+}
+
+.credit a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.credit a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 767.98px) {
+  .footer {
+    padding: 2rem 0;
+  }
+
+  .footer-links,
+  .footer-contact {
+    display: block;
+    width: 100%;
+  }
+
+  .footer h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer ul {
+    margin-bottom: 1rem;
   }
 }
