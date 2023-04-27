@@ -33,8 +33,8 @@ const Header = () => {
           </NavbarBrand>
 
           <div className="navbar-middle">
-            <h1 className="mt-1">Healthy and Vibrant</h1>
-            <p>Providing wellness through nutrition and lifestyle</p>
+            <h1 className="mt-1">Healthy & Vibrant</h1>
+            <p>Providing Wellness Through Nutrition and Lifestyle</p>
           </div>
 
           <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />

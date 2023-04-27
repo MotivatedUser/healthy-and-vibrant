@@ -89,9 +89,167 @@
 
 
 
+/* Homepage.css */
+.self-love {
+  max-width: 100%;
+  height: auto;
+}
+.homepage {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
 
+.homepage__title {
+  font-size: 2.5rem;
+  color: #3a3a3a;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
 
+.homepage__subtitle {
+  font-size: 1.5rem;
+  color: #5a5a5a;
+  margin-bottom: 2rem;
+  text-align: center;
+}
 
+.homepage__name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3a3a3a;
+  margin-bottom: 1rem;
+}
+
+.homepage__qualifications {
+  font-size: 1rem;
+  color: #5a5a5a;
+  margin-bottom: 2rem;
+  white-space: pre-wrap;
+}
+
+.homepage__intro,
+.homepage__content {
+  font-size: 1rem;
+  color: #5a5a5a;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.homepage__cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .homepage__title {
+    font-size: 3rem;
+  }
+
+  .homepage__subtitle {
+    font-size: 2rem;
+  }
+
+  .homepage__name {
+    font-size: 2rem;
+  }
+}
+
+/* TestimonialSlider */
+
+.testimonial-slider {
+  font-family: Arial, sans-serif;
+  margin: 2rem 0;
+}
+
+.testimonial-slider__title {
+  font-size: 2rem;
+  color: #3a3a3a;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.testimonial-slider__item {
+  padding: 1rem;
+}
+
+.testimonial-slider__content {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.testimonial-slider__comment {
+  font-size: 1rem;
+  color: #5a5a5a;
+  margin-bottom: 1rem;
+}
+
+.testimonial-slider__name {
+  font-size: 1rem;
+  color: #3a3a3a;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-slider__rating {
+  font-size: 1rem;
+  color: #f1c40f;
+}
+
+/* About Page */
+.about-page {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.about-page h2,
+.about-page h3 {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.about-page h2::after,
+.about-page h3::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 2px;
+  background-color: #000;
+}
+
+.about-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-image {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  max-width: 15%;
+  height: auto;
+}
+
+.about-image-right {
+  float: right;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  max-width: 15%;
+  height: auto;
+}
+
+.scrable-img {
+  max-width: 80%;
+}
 
 /* src/components/Footer/Footer.css */
 .footer .row {
