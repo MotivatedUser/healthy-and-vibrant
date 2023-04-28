@@ -54,7 +54,7 @@ const Blog = () => {
       <ul className="blog__list">
         {articles.map((article, index) => (
           <li key={index} className="blog__list-item">
-            <a href={article.link} target="_blank" rel="noreferrer" className="blog__list-item-link">
+            <a href={article.link} target="_blank" rel="noreferrer" className="blog__list-item-link" aria-label={`Read article: ${article.title}`}>
               {article.title}
             </a>
           </li>

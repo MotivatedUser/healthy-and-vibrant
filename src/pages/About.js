@@ -29,7 +29,7 @@ const About = () => {
         <Col>
           <h3>Our Philosophy</h3>
           <p>
-            <img src={rocks} alt="Rocks" className="about-image" />
+            <img src={rocks} alt="Stacked rocks symbolizing balance" className="about-image" />
             <img src={rocks2} alt='Rocks stacked on the ocean shore' className="about-image-right" />
             We believe that the body possesses a remarkable ability to heal
             itself and function optimally when given the proper support. Our
@@ -45,8 +45,8 @@ const About = () => {
         <Col>
           <h3>Our Services</h3>
           <p>
-            <img src={walking} alt='Shadow walking in a desert' className='about-image' />
-            <img src={feeling} alt="Rocks" className="about-image-right" />
+            <img src={walking} alt='Shadow of a person walking in a desert' className='about-image' />
+            <img src={feeling} alt="Lady with her eyes closed and her hand on her chest" className="about-image-right" />
             At Healthy & Vibrant, we offer a wide range of services designed to
             enhance your well-being, including:
             
@@ -77,10 +77,10 @@ const About = () => {
       </Row>
       <Row>
         <Col md="6">
-          <img className="scrable-img" src={stopExcuses} alt="Scrable tiles spelling stop excuses" />
+          <img className="scrable-img" src={stopExcuses} alt="Scrabble tiles spelling stop excuses" />
         </Col>
         <Col md="6">
-          <img className="scrable-img" src={startChanges} alt="Scrable tiles spelling start changes" />
+          <img className="scrable-img" src={startChanges} alt="Scrabble tiles spelling start changes" />
         </Col>
       </Row>
     </Container>

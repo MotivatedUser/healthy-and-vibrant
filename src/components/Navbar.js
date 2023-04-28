@@ -27,17 +27,18 @@ const Header = () => {
           <NavbarBrand className="ms-5 navbar-left" href="/">
             <img
               src={CitrusPic}
-              alt="Colorful fruits slices"
+              alt="Colorful fruit slices"
               className="header-pic"
+              aria-labelledby="Healthy & Vibrant"
             />
           </NavbarBrand>
 
           <div className="navbar-middle">
-            <h1 className="mt-1">Healthy & Vibrant</h1>
+            <h1 className="mt-1" id="Healthy & Vibrant">Healthy & Vibrant</h1>
             <p>Providing Wellness Through Nutrition and Lifestyle</p>
           </div>
 
-          <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+          <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation menu" />
           <Collapse isOpen={menuOpen} navbar className="custom-navbar-collapse">
             <Nav
               className={`ms-auto navbar-right${
@@ -46,28 +47,28 @@ const Header = () => {
               navbar
             >
               <NavItem>
-                <NavLink className="nav-link" to="/" href="/">
-                  <FcHome className="nav-icon" /> <p className="nav-link-p" >Home</p>
+                <NavLink className="nav-link" to="/" href="/" aria-label="Home">
+                  <FcHome className="nav-icon" /> <p className="nav-link-p">Home</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/about" href="/about">
-                  <FcAbout className="nav-icon"  /> <p className="nav-link-p" >About</p>
+                <NavLink className="nav-link" to="/about" href="/about" aria-label="About">
+                  <FcAbout className="nav-icon" /> <p className="nav-link-p">About</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/schedule" href="/projects">
-                  <FcBusinessContact className="nav-icon"  /> <p className="nav-link-p" >Schedule</p>
+                <NavLink className="nav-link" to="/schedule" href="/projects" aria-label="Schedule">
+                  <FcBusinessContact className="nav-icon" /> <p className="nav-link-p">Schedule</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/order-here" href="/resume">
-                  <FcFilingCabinet className="nav-icon"  /> <p className="nav-link-p" >Order</p>
+                <NavLink className="nav-link" to="/order-here" href="/resume" aria-label="Order">
+                  <FcFilingCabinet className="nav-icon" /> <p className="nav-link-p">Order</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/blog" href="/skills">
-                  <FcDocument className="nav-icon"  /> <p className="nav-link-p" >Blog</p>
+                <NavLink className="nav-link" to="/blog" href="/skills" aria-label="Blog">
+                  <FcDocument className="nav-icon" /> <p className="nav-link-p">Blog</p>
                 </NavLink>
               </NavItem>
             </Nav>

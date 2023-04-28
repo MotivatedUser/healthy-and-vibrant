@@ -50,7 +50,7 @@ const Home = () => {
       <Row>
         <Col className="homepage__cta">
           <Link to='/schedule'>
-          <Button className='home-button' color='warning' >Schedule Your Free Evaluation</Button>
+          <Button className='home-button' color='warning' aria-label="Schedule Your Free Evaluation" >Schedule Your Free Evaluation</Button>
           </Link>
         </Col>
       </Row>

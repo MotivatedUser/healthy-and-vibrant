@@ -82,6 +82,13 @@
   margin-right: 5px;
 }
 
+.navbar-toggler {
+  background-color: black !important;
+}
+
+.navbar-toggler:hover {
+  background-color: #5a5a5a !important;
+}
 
 /* Responsive styles */
 

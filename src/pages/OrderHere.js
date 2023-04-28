@@ -38,13 +38,14 @@ const OrderHere = () => {
       </div>
 
       <a
-        className="order-here__button"
-        href="https://healthyandvibrant.standardprocess.com/products"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Order Product Now
-      </a>
+  className="order-here__button"
+  href="https://healthyandvibrant.standardprocess.com/products"
+  target="_blank"
+  rel="noreferrer"
+  aria-label="Order Standard Process products now"
+>
+  Order Product Now
+</a>
       <p className="order-here__content"> ** Customers are encouraged to seek the advice of a licensed healthcare practitioner prior to purchasing any products through this online store. Please contact Healthy and Vibrant at 509-951-4707 or healingrox@gmail.com</p>
     </div>
   );
