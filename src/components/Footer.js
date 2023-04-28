@@ -10,7 +10,7 @@ const Footer = () => {
       <Container fluid className='footer'>
         <Row>
           <Col md="5" className='footer-links'>
-            <h5>Quick Links</h5>
+            <h3>Quick Links</h3>
             <ul className="list-unstyled">
               <li>
                 <Link to="/">Home</Link>
@@ -30,7 +30,7 @@ const Footer = () => {
             </ul>
           </Col>
           <Col md="5" className='footer-contact'>
-            <h5>Contact Info</h5>
+            <h3>Contact Info</h3>
             <ul className="list-unstyled">
               <li>
                 <FaEnvelope />{' '}
