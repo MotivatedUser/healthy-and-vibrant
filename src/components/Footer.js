@@ -34,8 +34,8 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li>
                 <FaEnvelope />{' '}
-                <a href="mailto:info@healthyandvibrant.com">
-                  info@healthyandvibrant.com
+                <a href="mailto:healingrox@gmail.com">
+                HealingRox@gmail.com
                 </a>
               </li>
               <li>
