@@ -10,9 +10,11 @@
 
 .navbar-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar-left {
@@ -95,6 +97,12 @@
 
   .navbar-brand {
     padding: 0.5rem 0;
+  }
+
+  .navbar-left,
+  .navbar-middle {
+    justify-content: center;
+    width: 100%;
   }
 
 }
