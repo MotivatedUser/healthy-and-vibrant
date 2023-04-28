@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from 'reactstrap';
 import '../App.css';
 import TestimonialSlider from '../components/TestimonialSlider';
 import selfLove from '../images/selfLove.webp';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -48,7 +49,9 @@ const Home = () => {
 
       <Row>
         <Col className="homepage__cta">
-          <Button color="primary">Schedule Your Free Evaluation</Button>
+          <Link to='/schedule'>
+          <Button className='home-button' color='warning' >Schedule Your Free Evaluation</Button>
+          </Link>
         </Col>
       </Row>
     </Container>

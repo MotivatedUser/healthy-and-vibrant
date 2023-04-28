@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
+import ScheduleForm from '../components/ScheduleForm';
 
-const Schedule = () => {
+function App() {
   return (
-    <div>Schedule</div>
-  )
+    <div className="App">
+      <h1>Healthy & Vibrant Appointment Request</h1>
+      <br/>
+      <ScheduleForm />
+    </div>
+  );
 }
 
-export default Schedule
+export default App;

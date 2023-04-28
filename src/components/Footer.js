@@ -7,7 +7,7 @@ import '../App.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <Container>
+      <Container fluid className='footer'>
         <Row>
           <Col md="5" className='footer-links'>
             <h5>Quick Links</h5>
@@ -19,10 +19,10 @@ const Footer = () => {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/schedule">Schedule</Link>
               </li>
               <li>
-                <Link to="/order-here">Order Here</Link>
+                <Link to="/order-here">Order</Link>
               </li>
               <li>
                 <Link to="/blog">Blog</Link>

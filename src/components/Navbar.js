@@ -10,9 +10,9 @@ import {
 import { NavLink } from "react-router-dom";
 import {
   FcAbout,
-  FcAssistant,
-  FcBinoculars,
-  FcBusinessman,
+  FcBusinessContact,
+  FcDocument,
+  FcFilingCabinet,
   FcHome,
 } from "react-icons/fc";
 import CitrusPic from "../images/CitrusPic.webp";
@@ -47,27 +47,27 @@ const Header = () => {
             >
               <NavItem>
                 <NavLink className="nav-link" to="/" href="/">
-                  <FcHome /> Home
+                  <FcHome className="nav-icon" /> <p className="nav-link-p" >Home</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="nav-link" to="/about" href="/about">
-                  <FcAbout /> About
+                  <FcAbout className="nav-icon"  /> <p className="nav-link-p" >About</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="nav-link" to="/schedule" href="/projects">
-                  <FcBinoculars /> Schedule
+                  <FcBusinessContact className="nav-icon"  /> <p className="nav-link-p" >Schedule</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="nav-link" to="/order-here" href="/resume">
-                  <FcBusinessman /> Order
+                  <FcFilingCabinet className="nav-icon"  /> <p className="nav-link-p" >Order</p>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="nav-link" to="/blog" href="/skills">
-                  <FcAssistant /> Blog
+                  <FcDocument className="nav-icon"  /> <p className="nav-link-p" >Blog</p>
                 </NavLink>
               </NavItem>
             </Nav>
