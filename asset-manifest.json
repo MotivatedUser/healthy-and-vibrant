@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/healthy-and-vibrant/static/css/main.111544d2.css",
-    "main.js": "/healthy-and-vibrant/static/js/main.1f825671.js",
+    "main.css": "/healthy-and-vibrant/static/css/main.fd558445.css",
+    "main.js": "/healthy-and-vibrant/static/js/main.61314bdd.js",
     "static/js/787.71e78c12.chunk.js": "/healthy-and-vibrant/static/js/787.71e78c12.chunk.js",
     "static/media/farm.webp": "/healthy-and-vibrant/static/media/farm.a0ac40b5e4deae245d75.webp",
     "static/media/CitrusPic.webp": "/healthy-and-vibrant/static/media/CitrusPic.81c5ca49e3d8b40e96e0.webp",
@@ -17,12 +17,12 @@
     "static/media/slick.ttf": "/healthy-and-vibrant/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/healthy-and-vibrant/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/healthy-and-vibrant/index.html",
-    "main.111544d2.css.map": "/healthy-and-vibrant/static/css/main.111544d2.css.map",
-    "main.1f825671.js.map": "/healthy-and-vibrant/static/js/main.1f825671.js.map",
+    "main.fd558445.css.map": "/healthy-and-vibrant/static/css/main.fd558445.css.map",
+    "main.61314bdd.js.map": "/healthy-and-vibrant/static/js/main.61314bdd.js.map",
     "787.71e78c12.chunk.js.map": "/healthy-and-vibrant/static/js/787.71e78c12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.111544d2.css",
-    "static/js/main.1f825671.js"
+    "static/css/main.fd558445.css",
+    "static/js/main.61314bdd.js"
   ]
 }
