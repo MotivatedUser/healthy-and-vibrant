@@ -24,7 +24,7 @@ const Header = () => {
     <>
       <Navbar dark expand="md" className="custom-navbar">
         <div className="navbar-content">
-          <NavbarBrand className="ms-5 navbar-left" href="/">
+          <NavbarBrand className=" navbar-left" href="/">
             <img
               src={CitrusPic}
               alt="Colorful fruit slices"

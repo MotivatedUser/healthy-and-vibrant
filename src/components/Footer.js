@@ -1,15 +1,15 @@
-import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import { Link } from 'react-router-dom';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
-import '../App.css';
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import { Link } from "react-router-dom";
+import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
+import "../App.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <Container fluid className='footer'>
+      <Container fluid className="footer">
         <Row>
-          <Col md="5" className='footer-links'>
+          <Col md="5" className="footer-links">
             <h3>Quick Links</h3>
             <ul className="list-unstyled">
               <li>
@@ -29,21 +29,18 @@ const Footer = () => {
               </li>
             </ul>
           </Col>
-          <Col md="5" className='footer-contact'>
+          <Col md="5" className="footer-contact">
             <h3>Contact Info</h3>
             <ul className="list-unstyled">
               <li>
-                <FaEnvelope />{' '}
-                <a href="mailto:healingrox@gmail.com">
-                HealingRox@gmail.com
-                </a>
+                <FaEnvelope />{" "}
+                <a href="mailto:healingrox@gmail.com">HealingRox@gmail.com</a>
               </li>
               <li>
-                <FaPhone />{' '}
-                <a href="tel:+15099514707">(509) 951-4707</a>
+                <FaPhone /> <a href="tel:+15099514707">(509) 951-4707</a>
               </li>
               <li>
-                <FaMapMarkerAlt />{' '}
+                <FaMapMarkerAlt />{" "}
                 <address>
                   11712 E Boone Ave, <br />
                   Spokane Valley, WA 99206
@@ -56,7 +53,7 @@ const Footer = () => {
         <Row>
           <Col className="text-center">
             <p className="credit">
-              Website by{' '}
+              Website by{" "}
               <a
                 href="https://www.reactivedoug.com"
                 aria-label="link"
