@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/healthy-and-vibrant/static/css/main.fd558445.css",
-    "main.js": "/healthy-and-vibrant/static/js/main.61314bdd.js",
-    "static/js/787.71e78c12.chunk.js": "/healthy-and-vibrant/static/js/787.71e78c12.chunk.js",
-    "static/media/farm.webp": "/healthy-and-vibrant/static/media/farm.a0ac40b5e4deae245d75.webp",
-    "static/media/CitrusPic.webp": "/healthy-and-vibrant/static/media/CitrusPic.81c5ca49e3d8b40e96e0.webp",
-    "static/media/rocks.webp": "/healthy-and-vibrant/static/media/rocks.31f4e031af53c5013333.webp",
-    "static/media/rocks2.webp": "/healthy-and-vibrant/static/media/rocks2.5c6d02c3486794f2b25c.webp",
-    "static/media/selfLove.webp": "/healthy-and-vibrant/static/media/selfLove.4c6c1fb29a408a72fbc0.webp",
-    "static/media/feeling.webp": "/healthy-and-vibrant/static/media/feeling.850fe7391268d9a0872e.webp",
-    "static/media/stopExcuses.webp": "/healthy-and-vibrant/static/media/stopExcuses.ca78f715364a93f67f46.webp",
-    "static/media/startChanges.webp": "/healthy-and-vibrant/static/media/startChanges.f43cdd5bf82cfa925c99.webp",
-    "static/media/walking.webp": "/healthy-and-vibrant/static/media/walking.8d9c40dd8a71982f4dd9.webp",
-    "static/media/slick.svg": "/healthy-and-vibrant/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/healthy-and-vibrant/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/healthy-and-vibrant/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/healthy-and-vibrant/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/healthy-and-vibrant/index.html",
-    "main.fd558445.css.map": "/healthy-and-vibrant/static/css/main.fd558445.css.map",
-    "main.61314bdd.js.map": "/healthy-and-vibrant/static/js/main.61314bdd.js.map",
-    "787.71e78c12.chunk.js.map": "/healthy-and-vibrant/static/js/787.71e78c12.chunk.js.map"
+    "main.css": "/static/css/main.96309dd6.css",
+    "main.js": "/static/js/main.7ba6b4dd.js",
+    "static/js/787.71e78c12.chunk.js": "/static/js/787.71e78c12.chunk.js",
+    "static/media/farm.webp": "/static/media/farm.a0ac40b5e4deae245d75.webp",
+    "static/media/CitrusPic.webp": "/static/media/CitrusPic.81c5ca49e3d8b40e96e0.webp",
+    "static/media/rocks.webp": "/static/media/rocks.31f4e031af53c5013333.webp",
+    "static/media/rocks2.webp": "/static/media/rocks2.5c6d02c3486794f2b25c.webp",
+    "static/media/selfLove.webp": "/static/media/selfLove.4c6c1fb29a408a72fbc0.webp",
+    "static/media/feeling.webp": "/static/media/feeling.850fe7391268d9a0872e.webp",
+    "static/media/stopExcuses.webp": "/static/media/stopExcuses.ca78f715364a93f67f46.webp",
+    "static/media/startChanges.webp": "/static/media/startChanges.f43cdd5bf82cfa925c99.webp",
+    "static/media/walking.webp": "/static/media/walking.8d9c40dd8a71982f4dd9.webp",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.96309dd6.css.map": "/static/css/main.96309dd6.css.map",
+    "main.7ba6b4dd.js.map": "/static/js/main.7ba6b4dd.js.map",
+    "787.71e78c12.chunk.js.map": "/static/js/787.71e78c12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd558445.css",
-    "static/js/main.61314bdd.js"
+    "static/css/main.96309dd6.css",
+    "static/js/main.7ba6b4dd.js"
   ]
 }
