@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -19,6 +19,24 @@ import CitrusPic from "../images/CitrusPic.webp";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenuAndScrollTop = () => {
+    setMenuOpen(false);
+    window.scrollTo(0, 0);
+  };
+
+  useEffect(() => {
+    const navLinks = document.querySelectorAll(".nav-link");
+    navLinks.forEach((link) => {
+      link.addEventListener("click", closeMenuAndScrollTop);
+    });
+
+    return () => {
+      navLinks.forEach((link) => {
+        link.removeEventListener("click", closeMenuAndScrollTop);
+      });
+    };
+  }, []);
 
   return (
     <>
