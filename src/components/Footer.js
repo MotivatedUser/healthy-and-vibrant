@@ -5,6 +5,10 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import "../App.css";
 
 const Footer = () => {
+  const scrollTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <footer className="footer">
       <Container fluid className="footer">
@@ -13,19 +17,19 @@ const Footer = () => {
             <h3>Quick Links</h3>
             <ul className="list-unstyled">
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" onClick={scrollTop}>Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about" onClick={scrollTop}>About</Link>
               </li>
               <li>
-                <Link to="/schedule">Schedule</Link>
+                <Link to="/schedule" onClick={scrollTop}>Schedule</Link>
               </li>
               <li>
-                <Link to="/order-here">Order</Link>
+                <Link to="/order-here" onClick={scrollTop}>Order</Link>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <Link to="/blog" onClick={scrollTop}>Blog</Link>
               </li>
             </ul>
           </Col>
