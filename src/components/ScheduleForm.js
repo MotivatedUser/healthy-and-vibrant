@@ -1,23 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
+import emailjs from 'emailjs-com'
 import './ScheduleForm.css'
 
 const ScheduleForm = () => {
+  useEffect(() => {
+    emailjs.init(process.env.REACT_APP_EMAILJS_USER_ID);
+  }, []);
+
   const {
     register,
     handleSubmit,
-    reset,
     formState: { errors },
+    reset,
   } = useForm();
 
   const onSubmit = (data) => {
-    const formattedData = JSON.stringify(data, null, 2);
-    const subject = encodeURIComponent('New Appointment Request');
-    const body = encodeURIComponent(`Appointment Details:\n\n${formattedData}`);
-    const mailtoLink = `mailto:healingrox@gmail.com?subject=${subject}&body=${body}`;
-
-    window.open(mailtoLink, '_blank');
-    reset();
+    emailjs.send("service_3yokxok", "template_ins9ddf", data).then(
+      (result) => {
+        console.log(result.text);
+        alert("Email successfully sent!");
+        reset();
+      },
+      (error) => {
+        console.log(error.text);
+        alert("Failed to send email. Please try again later.");
+      }
+    );
   };
 
   return (
@@ -70,7 +79,7 @@ const ScheduleForm = () => {
       {errors.helpMessage && <span>This field is required</span>}
       <br />
 
-      <button type="submit" aria-label="Submit as Email">Submit as Email</button>
+      <button type="submit" aria-label="Submit as Email">Submit</button>
     </form>
   );
 };
