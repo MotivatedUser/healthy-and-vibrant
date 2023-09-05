@@ -44,6 +44,11 @@ const Home = () => {
           </p>
         </Col>
       </Row>
+      <Row>
+        <Col>
+        <p className="homepage__name">“The natural healing force within each one of us is the greatest force in getting well.” – Hippocrates</p>
+        </Col>
+      </Row>
 
       <TestimonialSlider />
 
