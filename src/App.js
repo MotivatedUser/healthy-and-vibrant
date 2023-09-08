@@ -13,7 +13,6 @@ import FootBath from "./pages/FootBath";
 function App() {
   return (
     <Router>
-      <div className='App' >
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
@@ -24,7 +23,6 @@ function App() {
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
-      </div>
       </Router>
   );
 }
