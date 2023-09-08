@@ -8,6 +8,7 @@ import OrderHere from "./pages/OrderHere";
 import Blog from "./pages/Blog";
 import Footer from "./components/Footer";
 import "./App.css";
+import FootBath from "./pages/FootBath";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/foot" element={<FootBath />} />
         <Route path="/about" element={<About />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/order-here" element={<OrderHere />} />

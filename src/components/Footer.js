@@ -57,14 +57,14 @@ const Footer = () => {
         <Row>
           <Col className="text-center">
             <p className="credit">
-              Website by{" "}
+              Web App by{" "}
               <a
-                href="https://www.reactivedoug.com"
+                href="https://www.reactprosolutions.com"
                 aria-label="link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Doug Altermatt
+                React Pro Solutions
               </a>
             </p>
           </Col>

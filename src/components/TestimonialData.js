@@ -110,5 +110,77 @@ const testimonialData = [
         rating: 5,
         comment: "I felt TERRIBLE. I was tired, bloated and uncomfortable. Now, every day gets better. The IonCleanse Detox Footbath has helped boost my program and I have seen a tremendous difference in how I feel, sleep and even how my clothes fit!"
     },
+    {
+        id: 19,
+        name: 'MR',
+        rating: 5,
+        comment: ". I came to see Roxane because I was looking for a way to feel better.  Roxane has helped me to become aware of foods and body products that don't agree with me. I have fewer migraines, less urination problems and my arthritis is improving.  Through her testing methods, I have learned ways to improve my health, which then improve my overall happiness with my life.  Thank you Roxane! "
+    },
+    {
+        id: 20,
+        name: 'TH',
+        rating: 5,
+        comment: "I was dealing with gut health issues and carrying extra weight. I had an overall sense of being unhealthy and unsure how the foods I was eating were affecting me. With the Healthy & Vibrant program, I feel much better.  I am more in tune with my overall health, have lost weight and am not experiencing the discomfort of bloating, etc.  The advice and recommendations from Roxane, and the supplements I am taking, have made a huge difference for me. "
+    },
+    {
+        id: 21,
+        name: 'JW',
+        rating: 5,
+        comment: "Before, I was always boated, feeling full and so uncomfortable.  I was in a lot of pain in my lower back hip area.  My bowel movements and menstrual cycles were very irregular. I, now, no longer struggle with back pain and feel that I have been able to resume activities that I was unable to do before. My BMs and menstrual cycles have been more regular and I no longer feel bloated after barely eating.  My mind feels less foggy and I feel more vibrant!  "
+    },
+    {
+        id: 22,
+        name: 'DA',
+        rating: 5,
+        comment: "I had been fighting an Auto Immune (causing joint pain), had fatigue, and GI issues. After completing my first 12 appointments with Roxane, I feel like my healing has finally started after seeing so many traditional doctors. I am feeling better daily and seeing significant improvement in my daily functionality.  I feel very comfortable in her care at this point and applaud her for looking at the “entire body” rather than just the symptoms.  I have fought with Auto Immune issues for close to 20 years and I have hope that with continued care from Roxane, I will be able to stop or slow the ugly progression of my diseases- All Auto Immune. "
+    },
+    {
+        id: 23,
+        name: 'MP',
+        rating: 5,
+        comment: "I came to see Roxane to work on my blood sugar levels, thyroid issues and overall health. Currently, all my levels have improved! I am so happy and trust they will continue improving! "
+    },
+    {
+        id: 24,
+        name: 'JB',
+        rating: 5,
+        comment: "I was feeling lethargic and tired and just knew I was on the wrong course for my health.  I wasn't sure where to turn, but I knew I wasn't going to go to a medical doctor for drugs/medications. I found Roxane through a friend and it has been life changing!  I have been seeing Roxane for over 4 years.  I have increased energy, my asthma is under control, I have a more youthful appearance, no joint pain and am happy about continued weight loss! Roxane is excellent at listening and advising. She makes it her mission to find out what is missing and needed to give you control of your own health!  "
+    },
+    {
+        id: 25,
+        name: 'SW',
+        rating: 5,
+        comment: "I was experiencing anxiety, tiredness, lack of energy and an overall feeling of being “off”.  I wasn't sure if the over-the-counter vitamins were doing any good. I feel 100% better now!  I have more energy, less anxiety and I'm sleeping better!  And because of this, my body is absorbing the supplements much better! "
+    },
+    {
+        id: 26,
+        name: 'DF',
+        rating: 5,
+        comment: "My joints ached- I could barely bend over and pick up an object without difficulty.  I was sluggish. I can't hardly explain it but I feel GREAT!  I have no difficulties bending down and picking things up. My body hasn't felt this great in- I don't know how long!  I have lost weight and am eating healthy. "
+    },
+    {
+        id: 27,
+        name: 'CS',
+        rating: 5,
+        comment: " I was slow, sluggish and stuck.  My weight wasn't moving, periods were painful and my brain was foggy.I feel like my body is using food to fuel itself and I'm losing weight. I have the tools to be successful, and have found a couple of friends along the way.  I am so thankful to have someone in my corner who listens to me and my body.  I feel like it is mine again!  "
+    },
+    {
+        id: 28,
+        name: 'CS',
+        rating: 5,
+        comment: "I was taking meds for my acid reflux for almost 10 years.  The doctor did not ever mention healing my gut, just wrote a prescription.  The side effects of taking this medication long term were not good.  I needed to find another solution. Since seeing Roxane, I have drastically reduced my intake of the medication.  My gut is healing!  Hopefully, with the continued guidance from Roxane, I will be completely off of this med for acid reflux! "
+    },
+    {
+        id: 29,
+        name: 'JF',
+        rating: 5,
+        comment: "I had a dry non-productive cough for over 4 years.  I had been to many medical doctors but nothing seemed to help. After seeing Roxane, the cough went away.  What a relief!  I believe it was the program Roxane recommended, along with some diet changes, that helped me. After a year, I still do not have any dry cough symptoms.  I am so grateful!! "
+    },
+    {
+        id: 30,
+        name: 'SMR',
+        rating: 5,
+        comment: "I had low energy, Extreme drowsiness daily, painful gas, cramps, painful menstruation cramps, bad dreams, slept walked~almost every night, mood swings, grinded my teeth at night, frequently reoccurring ear blockage and was Always hungry. Two weeks after my first visit, the first 3 symptoms were no longer a problem.  After 3 months, the bad dreams and sleep walking were cured.  I no longer suffer from hearing loss due to blockage. With Roxane's consent, I was strong enough to do a liver cleanse after a year of visits.   My menstruation has been free of pain, ever since.  As well as, I have increased energy and a controlled appetite (feeling satisfied after a meal/no longer feeling as though I was continually starving). Some of these problems and others had been addressed to previous doctors.  Some prescribed medication, which did nothing to improve the condition, or made it worse-and made me sick.  Or, they did not address the problem at all.  Roxane addressed every problem- whether they were ones I directly asked about or not.  For example, I never complained about grinding my teeth- but she discovered it and after only 2 weeks of treatment, I was no longer grinding my teeth! However, experience has shown me that the muscle testing technique alone cannot detect every malady.  It can just eliminate foods or add supplements to detox or fortify the compromised organ.  Sometimes, taking other routes of information to heal these organs may be necessary, too. Thank you, Roxane, for helping so many people get started with their best foot forward. "
+    },
 ]
 export default testimonialData

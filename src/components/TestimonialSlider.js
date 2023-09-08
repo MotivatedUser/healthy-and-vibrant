@@ -5,6 +5,9 @@ import 'slick-carousel/slick/slick-theme.css';
 import testimonialData from './TestimonialData';
 
 const TestimonialSlider = () => {
+  // Generate a random index to set as the initial slide
+  const randomIndex = Math.floor(Math.random() * testimonialData.length);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -14,6 +17,7 @@ const TestimonialSlider = () => {
     autoplay: true,
     autoplaySpeed: 6000,
     accessibility: true,
+    initialSlide: randomIndex, // Set initialSlide to random index
     customPaging: function (i) {
       return (
         <div
